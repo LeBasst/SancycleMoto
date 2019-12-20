@@ -1,8 +1,11 @@
 <?php
 namespace Elementor\Core\DynamicTags;
 
+<<<<<<< HEAD
 use Elementor\Utils;
 
+=======
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
@@ -38,11 +41,19 @@ abstract class Tag extends Base_Tag {
 
 		if ( $value ) {
 			// TODO: fix spaces in `before`/`after` if WRAPPED_TAG ( conflicted with .elementor-tag { display: inline-flex; } );
+<<<<<<< HEAD
 			if ( ! Utils::is_empty( $settings['before'] ) ) {
 				$value = wp_kses_post( $settings['before'] ) . $value;
 			}
 
 			if ( ! Utils::is_empty( $settings['after'] ) ) {
+=======
+			if ( ! empty( $settings['before'] ) ) {
+				$value = wp_kses_post( $settings['before'] ) . $value;
+			}
+
+			if ( ! empty( $settings['after'] ) ) {
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 				$value .= wp_kses_post( $settings['after'] );
 			}
 
@@ -50,7 +61,11 @@ abstract class Tag extends Base_Tag {
 				$value = '<span id="elementor-tag-' . esc_attr( $this->get_id() ) . '" class="elementor-tag">' . $value . '</span>';
 			endif;
 
+<<<<<<< HEAD
 		} elseif ( ! Utils::is_empty( $settings['fallback'] ) ) {
+=======
+		} elseif ( ! empty( $settings['fallback'] ) ) {
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 			$value = $settings['fallback'];
 		}
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*! elementor - v2.8.1 - 11-12-2019 */
+=======
+/*! elementor - v2.8.0 - 09-12-2019 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -1506,7 +1510,11 @@ var speciesConstructor = __webpack_require__(170);
 var advanceStringIndex = __webpack_require__(89);
 var toLength = __webpack_require__(37);
 var callRegExpExec = __webpack_require__(78);
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 var fails = __webpack_require__(22);
 var $min = Math.min;
 var $push = [].push;
@@ -1709,8 +1717,12 @@ module.exports = function (KEY, exec) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 75 */,
 /* 76 */
+=======
+/* 75 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1775,6 +1787,10 @@ module.exports = patchedExec;
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 76 */,
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /* 77 */,
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1815,7 +1831,11 @@ var hide = __webpack_require__(25);
 var fails = __webpack_require__(22);
 var defined = __webpack_require__(32);
 var wks = __webpack_require__(9);
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 
 var SPECIES = wks('species');
 
@@ -2446,7 +2466,11 @@ module.exports = _setPrototypeOf;
 /* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(228);
+=======
+module.exports = __webpack_require__(227);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 
 /***/ }),
 /* 116 */
@@ -3194,7 +3218,11 @@ module.exports = function (it) {
 /* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(230);
+=======
+module.exports = __webpack_require__(229);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 
 /***/ }),
 /* 160 */
@@ -3296,7 +3324,11 @@ module.exports = function (TO_STRING) {
 
 "use strict";
 
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 __webpack_require__(29)({
   target: 'RegExp',
   proto: true,
@@ -3438,7 +3470,11 @@ module.exports = __webpack_require__(7).getIteratorMethod = function (it) {
 /* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(227);
+=======
+module.exports = __webpack_require__(226);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 
 /***/ }),
 /* 176 */
@@ -4113,8 +4149,12 @@ $export($export.S, 'Object', {
 /* 223 */,
 /* 224 */,
 /* 225 */,
+<<<<<<< HEAD
 /* 226 */,
 /* 227 */
+=======
+/* 226 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 var core = __webpack_require__(7);
@@ -4125,15 +4165,26 @@ module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(229);
+=======
+/* 227 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(228);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 module.exports = __webpack_require__(7).Object.values;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 229 */
+=======
+/* 228 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 // https://github.com/tc39/proposal-object-values-entries
@@ -4148,25 +4199,44 @@ $export($export.S, 'Object', {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(231);
+=======
+/* 229 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(230);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 module.exports = __webpack_require__(7).Object.assign;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 231 */
+=======
+/* 230 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.1 Object.assign(target, source)
 var $export = __webpack_require__(8);
 
+<<<<<<< HEAD
 $export($export.S + $export.F, 'Object', { assign: __webpack_require__(232) });
 
 
 /***/ }),
 /* 232 */
+=======
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(231) });
+
+
+/***/ }),
+/* 231 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4211,6 +4281,10 @@ module.exports = !$assign || __webpack_require__(23)(function () {
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 232 */,
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /* 233 */,
 /* 234 */,
 /* 235 */,
@@ -5204,9 +5278,12 @@ var _getPrototypeOf3 = _interopRequireDefault(__webpack_require__(4));
 
 var _inherits2 = _interopRequireDefault(__webpack_require__(6));
 
+<<<<<<< HEAD
 /**
  * TODO: Full JSDOC.
  */
+=======
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 var Commands =
 /*#__PURE__*/
 function (_elementorModules$Mod) {
@@ -5296,11 +5373,14 @@ function (_elementorModules$Mod) {
       return command === this.current[component.getRootContainer()];
     }
   }, {
+<<<<<<< HEAD
     key: "isCurrentFirstTrace",
     value: function isCurrentFirstTrace(command) {
       return command === this.getCurrentFirstTrace();
     }
   }, {
+=======
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
     key: "getCurrent",
     value: function getCurrent() {
       var container = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
@@ -5331,11 +5411,14 @@ function (_elementorModules$Mod) {
       return this.currentArgs;
     }
   }, {
+<<<<<<< HEAD
     key: "getCurrentFirstTrace",
     value: function getCurrentFirstTrace() {
       return this.currentTrace[0];
     }
   }, {
+=======
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
     key: "beforeRun",
     value: function beforeRun(command) {
       var args = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};

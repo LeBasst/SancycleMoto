@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*! elementor - v2.8.1 - 11-12-2019 */
+=======
+/*! elementor - v2.8.0 - 09-12-2019 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -1254,7 +1258,11 @@ var speciesConstructor = __webpack_require__(170);
 var advanceStringIndex = __webpack_require__(89);
 var toLength = __webpack_require__(37);
 var callRegExpExec = __webpack_require__(78);
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 var fails = __webpack_require__(22);
 var $min = Math.min;
 var $push = [].push;
@@ -1457,8 +1465,12 @@ module.exports = function (KEY, exec) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 75 */,
 /* 76 */
+=======
+/* 75 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1523,6 +1535,10 @@ module.exports = patchedExec;
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 76 */,
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /* 77 */,
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1563,7 +1579,11 @@ var hide = __webpack_require__(25);
 var fails = __webpack_require__(22);
 var defined = __webpack_require__(32);
 var wks = __webpack_require__(9);
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 
 var SPECIES = wks('species');
 
@@ -3060,7 +3080,11 @@ module.exports = function (TO_STRING) {
 
 "use strict";
 
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 __webpack_require__(29)({
   target: 'RegExp',
   proto: true,
@@ -3189,7 +3213,11 @@ module.exports = function (index, length) {
 
 "use strict";
 
+<<<<<<< HEAD
 __webpack_require__(235);
+=======
+__webpack_require__(234);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 var anObject = __webpack_require__(19);
 var $flags = __webpack_require__(91);
 var DESCRIPTORS = __webpack_require__(21);
@@ -3225,7 +3253,11 @@ module.exports = __webpack_require__(195);
 /* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(227);
+=======
+module.exports = __webpack_require__(226);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 
 /***/ }),
 /* 176 */,
@@ -3468,8 +3500,12 @@ module.exports = function (method, arg) {
 /* 223 */,
 /* 224 */,
 /* 225 */,
+<<<<<<< HEAD
 /* 226 */,
 /* 227 */
+=======
+/* 226 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 var core = __webpack_require__(7);
@@ -3480,14 +3516,22 @@ module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 227 */,
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /* 228 */,
 /* 229 */,
 /* 230 */,
 /* 231 */,
 /* 232 */,
 /* 233 */,
+<<<<<<< HEAD
 /* 234 */,
 /* 235 */
+=======
+/* 234 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 // 21.2.5.3 get RegExp.prototype.flags()
@@ -3498,6 +3542,10 @@ if (__webpack_require__(21) && /./g.flags != 'g') __webpack_require__(35).f(RegE
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 235 */,
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /* 236 */,
 /* 237 */,
 /* 238 */,

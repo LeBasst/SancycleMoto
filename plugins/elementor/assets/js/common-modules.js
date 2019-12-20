@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*! elementor - v2.8.1 - 11-12-2019 */
+=======
+/*! elementor - v2.8.0 - 09-12-2019 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -1527,7 +1531,11 @@ var speciesConstructor = __webpack_require__(170);
 var advanceStringIndex = __webpack_require__(89);
 var toLength = __webpack_require__(37);
 var callRegExpExec = __webpack_require__(78);
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 var fails = __webpack_require__(22);
 var $min = Math.min;
 var $push = [].push;
@@ -1730,8 +1738,12 @@ module.exports = function (KEY, exec) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 75 */,
 /* 76 */
+=======
+/* 75 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1796,6 +1808,10 @@ module.exports = patchedExec;
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 76 */,
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /* 77 */,
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1836,7 +1852,11 @@ var hide = __webpack_require__(25);
 var fails = __webpack_require__(22);
 var defined = __webpack_require__(32);
 var wks = __webpack_require__(9);
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 
 var SPECIES = wks('species');
 
@@ -3179,7 +3199,11 @@ module.exports = function (TO_STRING) {
 
 "use strict";
 
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 __webpack_require__(29)({
   target: 'RegExp',
   proto: true,
@@ -3783,8 +3807,13 @@ exports.default = ArgsObject;
 /***/ (function(module, exports, __webpack_require__) {
 
 var ctx = __webpack_require__(55);
+<<<<<<< HEAD
 var call = __webpack_require__(233);
 var isArrayIter = __webpack_require__(234);
+=======
+var call = __webpack_require__(232);
+var isArrayIter = __webpack_require__(233);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 var anObject = __webpack_require__(20);
 var toLength = __webpack_require__(107);
 var getIterFn = __webpack_require__(172);
@@ -3817,8 +3846,12 @@ exports.RETURN = RETURN;
 /* 229 */,
 /* 230 */,
 /* 231 */,
+<<<<<<< HEAD
 /* 232 */,
 /* 233 */
+=======
+/* 232 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 // call something on iterator step with safe closing on error
@@ -3836,7 +3869,11 @@ module.exports = function (iterator, fn, value, entries) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 234 */
+=======
+/* 233 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 // check on default Array iterator
@@ -3850,6 +3887,10 @@ module.exports = function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 234 */,
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /* 235 */,
 /* 236 */,
 /* 237 */,

@@ -4,7 +4,11 @@ Tags: page builder, editor, landing page, drag-and-drop, elementor, visual edito
 Requires at least: 5.0
 Tested up to: 5.3
 Requires PHP: 5.6
+<<<<<<< HEAD
 Stable tag: 2.8.1
+=======
+Stable tag: 2.8.0
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -221,6 +225,7 @@ No. Elementor supports WordPress 5.0 or greater, and is compatible with PHP 5.6 
 
 == Changelog ==
 
+<<<<<<< HEAD
 = 2.8.1 - 2019-12-11 =
 * Fix: Style pasting issue on Columns ([#9811](https://github.com/elementor/elementor/issues/9811))
 * Fix: Column duplication not working for Inner Section widget ([#9824](https://github.com/elementor/elementor/issues/9824))
@@ -230,6 +235,8 @@ No. Elementor supports WordPress 5.0 or greater, and is compatible with PHP 5.6 
 * Fix: Connect issue for Multisite users
 * Fix: Dynamic tag fallback does not handle '0' character
 
+=======
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 = 2.8.0 - 2019-12-09 =
 * New: Introducing new Color Picker control with Saved Colors built-in ([#6968](https://github.com/elementor/elementor/issues/6968), [#8982](https://github.com/elementor/elementor/issues/8982), [Developers Blog Post](https://developers.elementor.com/elementor-2-8-new-color-picker/]))
 * New: Introducing Dark Mode UI theme ([#9263](https://github.com/elementor/elementor/issues/9263), [#8249](https://github.com/elementor/elementor/issues/8249), [#9125](https://github.com/elementor/elementor/issues/9125))

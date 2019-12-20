@@ -205,9 +205,15 @@ $document = Plugin::$instance->documents->get( Plugin::$instance->editor->get_po
 
 		foreach ( $scheme_fields as $option_name => $option ) :
 			?>
+<<<<<<< HEAD
 			<div class="elementor-panel-scheme-typography-item elementor-control elementor-control-type-select">
 				<div class="elementor-panel-scheme-item-title elementor-control-title"><?php echo $option['label']; ?></div>
 				<div class="elementor-panel-scheme-typography-item-value elementor-control-input-wrapper">
+=======
+			<div class="elementor-panel-scheme-typography-item">
+				<div class="elementor-panel-scheme-item-title elementor-control-title"><?php echo $option['label']; ?></div>
+				<div class="elementor-panel-scheme-typography-item-value">
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 					<?php if ( 'select' === $option['type'] ) : ?>
 						<select name="<?php echo esc_attr( $option_name ); ?>" class="elementor-panel-scheme-typography-item-field">
 							<?php foreach ( $option['options'] as $field_key => $field_value ) : ?>

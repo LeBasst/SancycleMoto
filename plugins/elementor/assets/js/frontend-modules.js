@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*! elementor - v2.8.1 - 11-12-2019 */
+=======
+/*! elementor - v2.8.0 - 09-12-2019 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -82,7 +86,11 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 639);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 637);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -1151,7 +1159,11 @@ var speciesConstructor = __webpack_require__(170);
 var advanceStringIndex = __webpack_require__(89);
 var toLength = __webpack_require__(37);
 var callRegExpExec = __webpack_require__(78);
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 var fails = __webpack_require__(22);
 var $min = Math.min;
 var $push = [].push;
@@ -1354,8 +1366,12 @@ module.exports = function (KEY, exec) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 75 */,
 /* 76 */
+=======
+/* 75 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1420,6 +1436,10 @@ module.exports = patchedExec;
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 76 */,
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /* 77 */,
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1460,7 +1480,11 @@ var hide = __webpack_require__(25);
 var fails = __webpack_require__(22);
 var defined = __webpack_require__(32);
 var wks = __webpack_require__(9);
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 
 var SPECIES = wks('species');
 
@@ -2975,7 +2999,11 @@ module.exports = function (TO_STRING) {
 
 "use strict";
 
+<<<<<<< HEAD
 var regexpExec = __webpack_require__(76);
+=======
+var regexpExec = __webpack_require__(75);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 __webpack_require__(29)({
   target: 'RegExp',
   proto: true,
@@ -3757,8 +3785,13 @@ module.exports = Object.getPrototypeOf || function (O) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var ctx = __webpack_require__(55);
+<<<<<<< HEAD
 var call = __webpack_require__(233);
 var isArrayIter = __webpack_require__(234);
+=======
+var call = __webpack_require__(232);
+var isArrayIter = __webpack_require__(233);
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 var anObject = __webpack_require__(20);
 var toLength = __webpack_require__(107);
 var getIterFn = __webpack_require__(172);
@@ -3791,8 +3824,12 @@ exports.RETURN = RETURN;
 /* 229 */,
 /* 230 */,
 /* 231 */,
+<<<<<<< HEAD
 /* 232 */,
 /* 233 */
+=======
+/* 232 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 // call something on iterator step with safe closing on error
@@ -3810,7 +3847,11 @@ module.exports = function (iterator, fn, value, entries) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 234 */
+=======
+/* 233 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 // check on default Array iterator
@@ -3824,6 +3865,10 @@ module.exports = function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 234 */,
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /* 235 */,
 /* 236 */,
 /* 237 */,
@@ -5471,9 +5516,13 @@ module.exports = function (fn, args, that) {
 /* 634 */,
 /* 635 */,
 /* 636 */,
+<<<<<<< HEAD
 /* 637 */,
 /* 638 */,
 /* 639 */
+=======
+/* 637 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5485,9 +5534,15 @@ var _modules = _interopRequireDefault(__webpack_require__(466));
 
 var _document = _interopRequireDefault(__webpack_require__(464));
 
+<<<<<<< HEAD
 var _stretchElement = _interopRequireDefault(__webpack_require__(640));
 
 var _base = _interopRequireDefault(__webpack_require__(641));
+=======
+var _stretchElement = _interopRequireDefault(__webpack_require__(638));
+
+var _base = _interopRequireDefault(__webpack_require__(639));
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 
 _modules.default.frontend = {
   Document: _document.default,
@@ -5500,7 +5555,11 @@ _modules.default.frontend = {
 };
 
 /***/ }),
+<<<<<<< HEAD
 /* 640 */
+=======
+/* 638 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5574,7 +5633,11 @@ module.exports = elementorModules.ViewModule.extend({
 });
 
 /***/ }),
+<<<<<<< HEAD
 /* 641 */
+=======
+/* 639 */
+>>>>>>> cf6de4ce0fb1c96e6dfb96542a769208ef370df4
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
